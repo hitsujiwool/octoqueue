@@ -1,0 +1,30 @@
+{
+  "name": "octoqueue",
+  "version": "0.0.2",
+  "description": "simple GitHub API queue for rate limiting",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hitsujiwool/octoqueue"
+  },
+  "keywords": [
+    "github"
+  ],
+  "author": "Ryo Murayama <utatanenohibi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hitsujiwool/octoqueue/issues"
+  },
+  "homepage": "https://github.com/hitsujiwool/octoqueue",
+  "dependencies": {
+    "debug": "~0.7.4"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "nock": "*",
+    "sinon": "*"
+  }
+}
